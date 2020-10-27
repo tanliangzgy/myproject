@@ -11,6 +11,15 @@ public class Emp {
     private int empno;
     private String ename;
     private String job;
+    private double sal;
+
+    public double getSal() {
+        return sal;
+    }
+
+    public void setSal(double sal) {
+        this.sal = sal;
+    }
 
     public int getEmpno() {
         return empno;
